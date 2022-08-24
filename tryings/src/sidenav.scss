@@ -6,6 +6,9 @@
     height: 100vh;
     background-color: $color-blue;  
     transition: .5s;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
 
     .close{
       transition: .5s;
@@ -42,7 +45,7 @@
     transition: .3s;
     opacity: 0%;
     margin-top: 35px;
-    position: absolute;
+    position: fixed;
     left: 33px;
     display: flex;
     background-color: $color-blue;
