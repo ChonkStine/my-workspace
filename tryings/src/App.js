@@ -6,7 +6,6 @@ function App() {
   return (
     <div class='app'>
       <SideNav />
-      <Home />
     </div>
   );
 }//app end

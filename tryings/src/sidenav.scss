@@ -5,13 +5,11 @@
     width: 145px;
     height: 100vh;
     background-color: $color-blue;  
-    transition: .5s;
     display: flex;
     flex-direction: column;
     place-items: center;
 
     .close{
-      transition: .5s;
       box-shadow: 1px 1px 20px $color-blue;
       display: flex;
       position: absolute;
@@ -38,23 +36,6 @@
     .logo {
       margin-top: 35px;
       width: 75px;
-    }
-  }
-
-  .open{
-    transition: .3s;
-    opacity: 0%;
-    margin-top: 35px;
-    position: fixed;
-    left: 33px;
-    display: flex;
-    background-color: $color-blue;
-    padding: 20px;
-    border-radius: 100px;
-    svg{
-      fill: $color-white;
-      height: 40px;
-      width: 40px;
     }
   }
 
@@ -95,11 +76,7 @@
       // .close{
       //   margin-left: -200px;
       // }
-    }
-    .open{
-      opacity: 100%;
-    }
-    
+    } 
   }
 
   @media only screen and (min-width: 700px) {
