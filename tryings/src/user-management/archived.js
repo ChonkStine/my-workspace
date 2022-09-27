@@ -1,12 +1,11 @@
 import UserHead from './tables/user-table';
 import UserCell from './tables/eto-talaga-table';
-import './user-manage.scss';
 
-function UserManagement() {
+function Archived() {
     return (
         <div class='container'>
             <div class='title'>
-                USER <div class='yellow'>MANAGEMENT</div>
+                ARCHIVED <div class='yellow'>MANAGEMENT</div>
             </div>
 
             
@@ -27,13 +26,11 @@ function UserManagement() {
                 <UserCell />
             </div>
             <div class='buttons'>
-                <div>ARCHIVE</div>
-                <div>UPDATE USER</div>
-                <div>ADD USER</div>
+                <div>RESTORE USER</div>
+                <div>DELETE</div>
             </div>
         </div>
     );
 }
 
-
-export default UserManagement;
+export default Archived;

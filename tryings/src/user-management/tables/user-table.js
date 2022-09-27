@@ -3,6 +3,7 @@ import './user-table.scss';
 function tableHead() {
     return (
         <div class='heading'>
+            <p></p>
             <p>ID Number</p>
             <p>Name</p>
             <p>Department</p>

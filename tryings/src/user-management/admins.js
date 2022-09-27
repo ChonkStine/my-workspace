@@ -6,7 +6,7 @@ function UserManagement() {
     return (
         <div class='container'>
             <div class='title'>
-                USER <div class='yellow'>MANAGEMENT</div>
+                APPROVING <div class='yellow'>ADMINS</div>
             </div>
 
             

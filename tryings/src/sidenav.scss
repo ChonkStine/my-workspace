@@ -1,7 +1,7 @@
 @import 'var&mixins.scss';
 #sidebar {
-    position: sticky;
-    top:0;
+    position: fixed;
+    top: 0;
     width: 145px;
     height: 100vh;
     background-color: $color-blue;  
@@ -47,24 +47,24 @@
   }
 
   // some responsiveness
-  @media only screen and (max-width: 900px) {
-    #sidebar{
-      width: 16vw;
+  // @media only screen and (max-width: 900px) {
+  //   #sidebar{
+  //     width: 16vw;
       
-      .logo{
-        width: 7.5vw;
-      }
-    } 
+  //     .logo{
+  //       width: 7.5vw;
+  //     }
+  //   } 
     
-    .links-cont{
-      .links{
-        .icons{
-          width: 3.3vw;
-          height: 3.3vw;
-        }
-      }
-    }
-  }
+  //   .links-cont{
+  //     .links{
+  //       .icons{
+  //         width: 3.3vw;
+  //         height: 3.3vw;
+  //       }
+  //     }
+  //   }
+  // }
 
   @media only screen and (max-width: 650px) {
     #sidebar{
