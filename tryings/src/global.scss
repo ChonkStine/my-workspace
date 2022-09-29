@@ -31,7 +31,8 @@ body{
     gap: 20px;
     margin: 0 auto;
     margin-top: 35px;
-    div{
+    div, a{
+        text-decoration: none;
         color: $color-white;
         background-color: $color-blue;
         padding: 15px 0;

@@ -10,6 +10,34 @@ import './global.scss';
 
 
 export default function App() {
+  let Component 
+  switch (window.location.pathname) {
+    
+    case '/': 
+      Component = AdminDashboard
+      break;
+      
+    case '/user-dashboard': 
+    Component = UserDashboard
+    break;
+    
+    case '/admin-table': 
+      Component = AdminTable
+      break;
+    
+      case '/archive-table': 
+        Component = Archived
+        break;
+
+    case '/user-manage': 
+    Component = UserManage
+    break;
+  
+    default:
+      break;
+
+  }
+
   return (
     <div class='app'>
 
@@ -18,7 +46,7 @@ export default function App() {
       </div>
 
       <div class='renderer'>
-        <AdminDashboard />
+        <Component />
       </div>
     </div>
   );
