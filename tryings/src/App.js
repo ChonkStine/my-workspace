@@ -18,20 +18,20 @@ export default function App() {
       break;
       
     case '/user-dashboard': 
-    Component = UserDashboard
-    break;
-    
+      Component = UserDashboard
+      break;
+      
     case '/admin-table': 
       Component = AdminTable
       break;
     
-      case '/archive-table': 
-        Component = Archived
-        break;
+    case '/archive-table': 
+      Component = Archived
+      break;
 
     case '/user-manage': 
-    Component = UserManage
-    break;
+      Component = UserManage
+      break;
   
     default:
       break;
