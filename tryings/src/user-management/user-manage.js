@@ -28,8 +28,8 @@ function UserManagement() {
             </div>
             <div class='buttons'>
                 <div>ARCHIVE</div>
-                <a href='/archive-table'>UPDATE USER</a>
-                <div>ADD USER</div>
+                <a>UPDATE USER</a>
+                <a>ADD USER</a>
             </div>
         </div>
     );

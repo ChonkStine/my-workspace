@@ -11,8 +11,8 @@ export default function userDashboard() {
         </div>
 
         <div class='buttons'>
-            <div>USER MANAGEMENT</div>
-            <div>SCHEDULE ACTIVITY</div>
+            <a href='/user-manage'>USER MANAGEMENT</a>
+            <a>SCHEDULE ACTIVITY</a>
         </div>
 
         <div class='user-req'>

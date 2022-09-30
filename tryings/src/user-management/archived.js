@@ -26,8 +26,8 @@ function Archived() {
                 <UserCell />
             </div>
             <div class='buttons'>
-                <div>RESTORE USER</div>
-                <div>DELETE</div>
+                <a>RESTORE USER</a>
+                <a>DELETE</a>
             </div>
         </div>
     );

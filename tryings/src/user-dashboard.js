@@ -11,7 +11,7 @@ export default function userDashboard() {
         </div>
 
         <div class='buttons'>
-            <div>SCHEDULE ACTIVITY</div>
+            <a>SCHEDULE ACTIVITY</a>
         </div>
 
         <div class='user-req'>

@@ -7,8 +7,8 @@
     font-weight: 600;
     border-radius: 10px;
     display: grid;
-    grid-template-columns: .2fr 1fr 2fr 1fr 1fr 1fr;
-    justify-content: space-between;
+    grid-template-columns: 1fr 2fr 1fr 1fr;
+    justify-content: space-evenly;
     background-color: $color-blue;
     color: $color-white;
     box-shadow: 0 1px 20px rgba(0, 0, 0, 0.315)

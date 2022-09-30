@@ -3,7 +3,6 @@ import './eto-talaga-table.scss';
 function userTable() {
     return (
         <div class='info-container'>
-            <input type="checkbox" id="selectbox"></input>
             
             <p id='id'>
                 haha
@@ -15,9 +14,6 @@ function userTable() {
                 ahha
             </p>
             <p id='org'>
-                haha
-            </p>
-            <p id='type'>
                 haha
             </p>
         </div>

@@ -2,16 +2,20 @@
 .header{
     height: 140px;
     width: 100%;
-    background-color: red;
+    padding-left: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-left: 50px;
+    background-image: url('./images/bannerpic1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 
     div{
         font-size: 40px;
         font-weight: 600;
         color: $color-white;
+        text-shadow: 1px 0 15px $color-black;
     }
     div:nth-child(2) {
         font-size: 60px;
