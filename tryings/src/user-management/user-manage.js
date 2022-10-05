@@ -16,6 +16,12 @@ function UserManagement() {
                 <div class='search-icon'></div>
             </div>
 
+            <div class='switches'>
+                <a href=''>Requestors</a>
+                <a href=''>Admins</a>
+                <a href=''>Archived</a>
+            </div>
+
             <div class='table-heading'>
                 <UserHead />
             </div>
