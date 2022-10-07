@@ -12,7 +12,7 @@ export default function userDashboard() {
 
         <div class='buttons'>
             <a href='/user-manage'>USER MANAGEMENT</a>
-            <a>SCHEDULE ACTIVITY</a>
+            <a href='/form-renderer'>SCHEDULE ACTIVITY</a>
         </div>
 
         <div class='user-req'>

@@ -1,0 +1,10 @@
+@import '/src/var&mixins.scss';
+
+.ehe{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    flex-direction: column;
+       
+}
