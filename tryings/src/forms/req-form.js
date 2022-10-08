@@ -1,6 +1,7 @@
 import React from 'react'
 import './req-form.scss';
-export default function ReqForm2() {
+import './progress-bar.scss';
+export default function ReqForm() {
   return (
     <div class='ehe'>
         <div class='form-container'>
@@ -8,31 +9,36 @@ export default function ReqForm2() {
 
             <div class='form-fields'>
                 <div>
-                    <label for="">Purpose </label>
+                    <label for="">Date </label>
                     <input type="text" placeholder='---'></input>
                 </div>
 
                 <div class='small-fields'>
                     <div>
-                        <label for="">Buildings</label>
+                        <label for="">Start Time</label>
                         <input type="text" placeholder='---'></input>
                     </div>
                     <div>
-                        <label for="">Rooms</label>
+                        <label for="">End Time</label>
                         <input type="text" placeholder='---'></input>
                     </div>
-                </div>
-                
-                <div class='form-attach'>
-                    Attach FIles
+                    <div>
+                        <label for="">Department</label>
+                        <input type="text" placeholder='---'></input>
+                    </div>
+                    <div>
+                        <label for="">Organization</label>
+                        <input type="text" placeholder='---'></input>
+                    </div>
                 </div>
 
                 <div class='buttons' id='form-buttons'>
                     <a>Previous</a>
-                    <a>Next</a>
+                    <a href='/req-form2'>Next</a>
                 </div>
             </div>
         </div>
+
     </div>
   )
 }

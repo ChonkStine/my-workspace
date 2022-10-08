@@ -1,5 +1,4 @@
 import SideNav from './sidenav';
-import FormRenderer from './forms/form-renderer';
 import UserManage from './user-management/user-manage';
 import Archived from './user-management/archived';
 import AdminTable from './user-management/admins';
@@ -8,6 +7,9 @@ import AdminDashboard from './admin-dashboard';
 import UserPill from './User-pill';
 import UserCell from './user-management/tables/eto-talaga-table';
 import TableHead from './user-management/tables/user-table';
+import ReqForm1 from './forms/req-form';
+import ReqForm2 from './forms/req-form2';
+import ReqForm3 from './forms/req-form3';
 import './global.scss';
 
 
@@ -18,10 +20,17 @@ export default function App() {
     case '/': 
       Component = AdminDashboard
       break;
+     
+    case '/req-form1': 
+      Component = ReqForm1
+      break;
       
-    case '/form-renderer': 
-      Component = FormRenderer;
+    case '/req-form2': 
+      Component = ReqForm2
+      break;
 
+    case '/req-form3': 
+      Component = ReqForm3
       break;
       
     case '/admin-table': 

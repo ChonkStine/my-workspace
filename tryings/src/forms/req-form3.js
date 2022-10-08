@@ -23,7 +23,7 @@ export default function ReqForm2() {
 
 
                 <div class='buttons' id='form-buttons'>
-                    <a>Previous</a>
+                    <a href='/req-form2'>Previous</a>
                     <a>Next</a>
                 </div>
             </div>
