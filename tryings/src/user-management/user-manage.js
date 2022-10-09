@@ -17,9 +17,9 @@ function UserManagement() {
             </div>
 
             <div class='switches'>
-                <a href=''>Requestors</a>
-                <a href=''>Admins</a>
-                <a href=''>Archived</a>
+                <a href='/user-manage'>Requestors</a>
+                <a href='/admins-table'>Admins</a>
+                <a href='/archive'>Archived</a>
             </div>
 
             <div class='table-heading'>

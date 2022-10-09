@@ -15,6 +15,12 @@ function Archived() {
                 <div class='search-icon'></div>
             </div>
 
+            <div class='switches'>
+                <a href='/user-manage'>Requestors</a>
+                <a href='/admins-table'>Admins</a>
+                <a href='/archive'>Archived</a>
+            </div>
+
             <div class='table-heading'>
                 <UserHead />
             </div>

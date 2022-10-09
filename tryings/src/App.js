@@ -10,6 +10,8 @@ import TableHead from './user-management/tables/user-table';
 import ReqForm1 from './forms/req-form';
 import ReqForm2 from './forms/req-form2';
 import ReqForm3 from './forms/req-form3';
+import ReqTable from './user-management/req-table';
+import UserReqTable from './user-management/user-req-table';
 import './global.scss';
 
 
@@ -19,6 +21,22 @@ export default function App() {
     
     case '/': 
       Component = AdminDashboard
+      break;  
+
+    case '/admins-table': 
+      Component = AdminTable
+      break;  
+
+    case '/archive': 
+      Component = Archived
+      break;  
+
+    case '/user-req-table': 
+      Component = UserReqTable
+      break;  
+      
+    case '/req-table': 
+      Component = ReqTable
       break;
      
     case '/req-form1': 
