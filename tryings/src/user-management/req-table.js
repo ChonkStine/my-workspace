@@ -5,7 +5,7 @@ function reqtable() {
   return (        
   <div class='container'>
   <div class='title'>
-      YOUR <div class='yellow'>TABLE</div>
+      YOUR <div class='yellow'>REQUESTS</div>
   </div>
 
   <div class='table-heading'>

@@ -23,7 +23,7 @@ export default function userDashboard() {
             <UserCell />
         </div>
 
-        <div class='more'>See more ...</div>
+        <a href='/req-table' class='more'>See more ...</a>
 
         <div class='user-req' id='user-req-admin'>
           <h1>USER REQUESTS</h1>
@@ -33,7 +33,7 @@ export default function userDashboard() {
             <UserCell />
         </div>
 
-        <div class='more'>See more ...</div>
+        <a href='/user-req-table' class='more'>See more ...</a>
 
     </div>
   );
