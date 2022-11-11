@@ -13,6 +13,7 @@ import ReqForm3 from './forms/req-form3';
 import ReqTable from './user-management/req-table';
 import UserReqTable from './user-management/user-req-table';
 import './global.scss';
+import Register from './forms/register';
 
 
 export default function App() {
@@ -61,6 +62,10 @@ export default function App() {
 
     case '/user-manage': 
       Component = UserManage
+      break;
+    
+    case '/register': 
+      Component = Register
       break;
   
     default:
