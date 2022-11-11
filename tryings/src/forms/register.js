@@ -37,7 +37,7 @@ export default function register() {
 
                     <div>
                       <label for="">Organization </label>
-                      <select name="Organization" id="org">
+                      <select name="Organization" id="org"> 
                         <option value="Lorem1">Lorem1</option>
                         <option value="Lorem2">Lorem2</option>
                         <option value="Lorem3">Lorem3</option>
