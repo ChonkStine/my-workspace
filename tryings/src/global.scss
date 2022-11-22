@@ -97,6 +97,20 @@ body{
 
 }
 
+.title{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    font-size: 40px;
+    font-weight: 700;
+    color: $color-blue;
+
+    .yellow{
+        color: $color-yellow;
+        margin-left: 15px;
+    }
+}
+
 @media only screen and (max-width: 650px) {
     .renderer{
         margin-left: 0;

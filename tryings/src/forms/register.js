@@ -1,5 +1,3 @@
-import './register.scss';
-
 export default function register() {
     return (
       <div class='ehe'>

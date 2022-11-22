@@ -1,0 +1,18 @@
+@import '/src/var&mixins.scss';
+.approval-container{
+    width: 80%;
+    padding: 40px 3%;
+    margin-top: 50px;
+    border-radius: 30px;
+    height: min-content;
+    background-color: $color-white;
+
+    .user{
+        .pic{
+            width: 90px;
+            height: 90px;
+            border-radius: 100px;
+            background-color: red;
+        }
+    }
+}

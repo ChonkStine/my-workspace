@@ -12,8 +12,11 @@ import ReqForm2 from './forms/req-form2';
 import ReqForm3 from './forms/req-form3';
 import ReqTable from './user-management/req-table';
 import UserReqTable from './user-management/user-req-table';
-import './global.scss';
+import Approval from './approval/approval';
 import Register from './forms/register';
+import AdminElect from './forms/admins-elect';
+import AdminUnelect from './forms/admin-unelect';
+import './global.scss';
 
 
 export default function App() {
@@ -63,10 +66,22 @@ export default function App() {
     case '/user-manage': 
       Component = UserManage
       break;
+
+    case '/approval': 
+      Component = Approval
+      break;
     
     case '/register': 
       Component = Register
       break;
+
+    case '/elect': 
+      Component = AdminElect
+      break;
+
+    case '/unelect': 
+        Component = AdminUnelect
+        break;
   
     default:
       break;

@@ -34,9 +34,8 @@ function UserManagement() {
                 <UserCell />
             </div>
             <div class='buttons'>
-                <div>ARCHIVE</div>
                 <div>UPDATE USER</div>
-                <div>ADD USER</div>
+                <a class="links" href="/register">ADD USER</a>
             </div>
         </div>
     );

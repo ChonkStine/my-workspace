@@ -35,7 +35,7 @@ function UserManagement() {
             <div class='buttons'>
                 <div>ARCHIVE</div>
                 <a>UPDATE USER</a>
-                <a>ADD USER</a>
+                <a class="links" href="/register">ADD USER</a>
             </div>
         </div>
     );
