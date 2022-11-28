@@ -13,10 +13,6 @@ export default function updateUser() {
                     <label for="">Password </label>
                     <input type="text" placeholder='---'></input>
                 </div>
-                <div>
-                    <label for="">Type </label>
-                    <input type="text" placeholder='---'></input>
-                </div>
 
                 <div class='small-fields'>
                     <div>
