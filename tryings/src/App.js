@@ -16,6 +16,7 @@ import Approval from './approval/approval';
 import Register from './forms/register';
 import AdminElect from './forms/admins-elect';
 import AdminUnelect from './forms/admin-unelect';
+import UserUpdate from './forms/update-user';
 import './global.scss';
 
 
@@ -82,6 +83,10 @@ export default function App() {
     case '/unelect': 
         Component = AdminUnelect
         break;
+
+    case '/user-update': 
+      Component = UserUpdate
+      break;
   
     default:
       break;
