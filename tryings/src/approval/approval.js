@@ -3,10 +3,6 @@ import './approval.scss';
 export default function approval() {
     return (
         <div class='ehe'>
-            <div class='title'>
-                YOUR <div class='yellow'>REQUESTS</div>
-            </div>
-      
             
             <div class='approval-container'>
                <div class='approval-upper'>
@@ -36,6 +32,11 @@ export default function approval() {
                     <p>Time: 9:00 AM - 11:00 AM</p>
                </div>
 
+            </div>
+
+            <div class='buttons'>
+                <div>Approve</div>
+                <div>Deny</div>
             </div>
                     
         </div>
