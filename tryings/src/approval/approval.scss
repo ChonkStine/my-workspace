@@ -7,12 +7,45 @@
     height: min-content;
     background-color: $color-white;
 
-    .user{
-        .pic{
-            width: 90px;
-            height: 90px;
-            border-radius: 100px;
-            background-color: red;
+    .approval-upper{
+        display: flex;
+        justify-content: space-between;
+        .user{
+            display: flex;
+            align-items: center;
+            column-gap: 10px;
+
+            .approval-user{
+                font-weight: 700;
+                font-size: 17px;
+            }
+
+            .approval-pic{
+                width: 90px;
+                height: 90px;
+                border-radius: 100px;
+                background-color: red;
+            }
+        }
+    }
+
+    .approval-middle{
+        margin-top: 30px;
+
+        p{
+            padding: 10px 30px;
+        }
+
+        .approval-purpose{
+            font-weight: 700;
+        }
+    }
+
+    .approval-bottom{
+        margin-top: 30px;
+        
+        p{
+            margin-top: 10px;
         }
     }
 }
