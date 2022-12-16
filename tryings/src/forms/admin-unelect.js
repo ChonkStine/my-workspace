@@ -9,12 +9,12 @@ export default function AdminUnelect() {
 
             <div class='form-fields'>
 
-                <div>
+                <div class='input-field'>
                     <label for="">ID Number </label>
                     <input type="text" placeholder='---'></input>
                 </div>
 
-                <div>
+                <div class='input-field'>
                     <label for="">Confirmation Password </label>
                     <input type="text" placeholder='---'></input>
                 </div>

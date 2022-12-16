@@ -5,25 +5,25 @@ export default function register() {
             <div class='form-title'><h1>USER REGISTRATION</h1></div>
 
             <div class='form-fields'>
-                <div>
+                <div class='input-field'>
                     <label for="">Name </label>
                     <input type="text" placeholder='---'></input>
                 </div>
-                <div>
+                <div class='input-field'>
                     <label for="">ID Number </label>
                     <input type="text" placeholder='---'></input>
                 </div>
-                <div>
+                <div class='input-field'>
                     <label for="">Password </label>
                     <input type="text" placeholder='---'></input>
                 </div>
-                <div>
+                <div class='input-field'>
                     <label for="">Type </label>
                     <input type="text" placeholder='---'></input>
                 </div>
 
                 <div class='small-fields'>
-                    <div>
+                    <div class='input-field'>
                       <label for="">Department </label>
                       <select name="Department" id="dept">
                         <option value="Lorem1">Lorem1</option>
@@ -33,7 +33,7 @@ export default function register() {
                       </select>
                     </div>
 
-                    <div>
+                    <div class='input-field'>
                       <label for="">Organization </label>
                       <select name="Organization" id="org"> 
                         <option value="Lorem1">Lorem1</option>

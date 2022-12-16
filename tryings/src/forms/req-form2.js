@@ -7,13 +7,13 @@ export default function ReqForm2() {
             <div class='form-title'><h1>RESERVATION FORM</h1></div>
 
             <div class='form-fields'>
-                <div>
+                <div class='input-field'>
                     <label for="">Purpose </label>
                     <input type="text" placeholder='---'></input>
                 </div>
 
                 <div class='small-fields'>
-                    <div>
+                    <div class='input-field'>
                         <label for="">Buildings</label>
                         <input type="text" placeholder='---'></input>
                     </div>

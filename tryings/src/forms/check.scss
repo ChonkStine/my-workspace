@@ -1,0 +1,39 @@
+@import '/src/var&mixins.scss';
+.checked-table{
+    margin-top: 30px;
+
+    p{
+        margin-bottom: 10px;
+        color: $color-gray
+    }
+
+    
+    .check-table-head{
+        padding: 20px 10%;
+        font-size: 14px;
+        font-weight: 600;
+        border-radius: 10px;
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr;
+        justify-content: space-between;
+        background-color: $color-white;
+        color: $color-gray;
+        border: 2px solid $color-gray;
+        box-shadow: 0 1px 20px rgba(0, 0, 0, 0.219);
+
+    }
+}
+
+.check-pill{
+    width: 100%;
+    background-color: $color-blue;
+    padding: 15px 0;
+    border-radius: 100px;
+    color: $color-white;
+    text-align: center;
+    margin-top: 30px;
+
+    &:hover{
+        background-color: $color-yellow;
+    }
+}

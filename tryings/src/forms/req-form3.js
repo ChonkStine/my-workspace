@@ -7,7 +7,7 @@ export default function ReqForm2() {
             <div class='form-title'><h1>RESERVATION FORM</h1></div>
 
             <div class='form-fields'>
-                <div>
+                <div class='input-field'>
                     <label for="">Ehhhh? </label>
                     <input type="text" placeholder='---'></input>
                 </div>

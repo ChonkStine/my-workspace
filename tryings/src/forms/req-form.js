@@ -8,25 +8,25 @@ export default function ReqForm() {
             <div class='form-title'><h1>RESERVATION FORM</h1></div>
 
             <div class='form-fields'>
-                <div>
+                <div class='input-field'>
                     <label for="">Date </label>
                     <input type="text" placeholder='---'></input>
                 </div>
 
                 <div class='small-fields'>
-                    <div>
+                    <div class='input-field'>
                         <label for="">Start Time</label>
                         <input type="text" placeholder='---'></input>
                     </div>
-                    <div>
+                    <div class='input-field'>
                         <label for="">End Time</label>
                         <input type="text" placeholder='---'></input>
                     </div>
-                    <div>
+                    <div class='input-field'>
                         <label for="">Department</label>
                         <input type="text" placeholder='---'></input>
                     </div>
-                    <div>
+                    <div class='input-field'>
                         <label for="">Organization</label>
                         <input type="text" placeholder='---'></input>
                     </div>

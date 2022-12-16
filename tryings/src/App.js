@@ -17,6 +17,7 @@ import Register from './forms/register';
 import AdminElect from './forms/admins-elect';
 import AdminUnelect from './forms/admin-unelect';
 import UserUpdate from './forms/update-user';
+import Check from './forms/check';
 import './global.scss';
 
 
@@ -86,6 +87,11 @@ export default function App() {
 
     case '/user-update': 
       Component = UserUpdate
+      break;
+
+      
+    case '/check': 
+      Component = Check
       break;
   
     default:
